@@ -67,14 +67,14 @@ First  create a empty file and open it for writting ansible script.
           touch ansible.yml
           vi ansible.yml
 
-<h1>Example Playbook:<h1>
+ Example Playbook:
 
  See jenkins.sh file
  
 
-<h1> After Writting the script: </h1>
+ After Writting the script:
   
-  After writting script run the following command to test the script
+ After writting script run the following command to test the script
  
          ansible-playbook ansible.yml
          
@@ -87,7 +87,7 @@ First  create a empty file and open it for writting ansible script.
          
          
 
-<h1> Issues:<h1>
+Issues:
  If the script is not running and throwing the error like Unable to lock the administration directory (/var/lib/dpkg/) is another process using it?
 
  First check the process that running and kill it.
