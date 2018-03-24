@@ -29,7 +29,7 @@ To install Ansible and check the version.<br/>
             ansible --version
 
 
-<h1> Configuring Ansible Hosts:<h1/>
+Configuring Ansible Hosts:
  
  First generate the key on host machine and copy the key from host to remote machines.<br/>
            
@@ -57,7 +57,7 @@ Now  we have our hosts set up and we can successfully connect to our hosts,by ty
  
           ansible -m ping jenkins (or) ansible -m ping all
  
-<h1> Ansible Playbooks: <h1/>
+Ansible Playbooks:
 
 By using Ansible playbooks we can send commands to remote computers.It is
 written in the YAML language.
