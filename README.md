@@ -100,4 +100,4 @@ Issues you may get:<br/>
         sudo rm /var/lib/apt/lists/lock
 
 
-
+![4](https://user-images.githubusercontent.com/33515288/37864010-561e5fd4-2f8e-11e8-8352-bac3992ef54e.jpg)
