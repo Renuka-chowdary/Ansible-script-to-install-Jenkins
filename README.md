@@ -1,6 +1,6 @@
 # Ansible-script-to-installl-Jennkins
 
-Installs Jenkins CI on Debian/Ubuntu servers.
+Ansible script to install Jenkins and takes us directly to Jenkins dashboard.
 
 <h1> Requirements:</h1>
 
@@ -82,6 +82,8 @@ First  create a empty file and open it for writting ansible script.
    
    http://192.168.33.91:8080
          
+         
+   !Jenkins dashboard(https://user-images.githubusercontent.com/33515288/37863891-1ca79970-2f8c-11e8-94a3-f3dcf58733f6.jpg)
          
          
 
