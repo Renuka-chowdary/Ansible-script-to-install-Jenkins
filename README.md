@@ -87,7 +87,7 @@ Example Playbook:
          
          
 
-Issues:<br/>
+<b>Issues:<b><br/>
 
  If the script is not running and throwing the error like Unable to lock the administration directory (/var/lib/dpkg/) is another process using it?
 
