@@ -83,9 +83,8 @@ Example Playbook:
    
    The below image is the output:    
          
-   !Jenkins dashboard(https://user-images.githubusercontent.com/33515288/37863891-1ca79970-2f8c-11e8-94a3-f3dcf58733f6.jpg)
-         
-         
+   
+![4](https://user-images.githubusercontent.com/33515288/37864010-561e5fd4-2f8e-11e8-8352-bac3992ef54e.jpg)
 
 Issues you may get:<br/>
 
@@ -98,6 +97,3 @@ Issues you may get:<br/>
  Again if it is showing the same error use the below command
   
         sudo rm /var/lib/apt/lists/lock
-
-
-![4](https://user-images.githubusercontent.com/33515288/37864010-561e5fd4-2f8e-11e8-8352-bac3992ef54e.jpg)
