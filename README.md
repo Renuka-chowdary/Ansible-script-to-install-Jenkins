@@ -67,13 +67,12 @@ First  create a empty file and open it for writting ansible script.
           touch ansible.yml
           vi ansible.yml
 
- Example Playbook:
 
- See jenkins.sh file
+Example Playbook:
+
+       See jenkins.sh file
  
 
- After Writting the script:
-  
  After writting script run the following command to test the script
  
          ansible-playbook ansible.yml
@@ -81,7 +80,8 @@ First  create a empty file and open it for writting ansible script.
    Playbook starts running.Once copmleted, go to browser and type
    
    http://192.168.33.91:8080
-         
+   
+   The below image is the output:    
          
    !Jenkins dashboard(https://user-images.githubusercontent.com/33515288/37863891-1ca79970-2f8c-11e8-94a3-f3dcf58733f6.jpg)
          
