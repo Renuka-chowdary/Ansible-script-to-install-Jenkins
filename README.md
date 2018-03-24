@@ -29,7 +29,7 @@ To install Ansible and check the version.<br/>
             ansible --version
 
 
-<h3> Configuring Ansible Hosts:<h3/>
+<h1> Configuring Ansible Hosts:<h1/>
  
  First generate the key on host machine and copy the key from host to remote machines.<br/>
            
@@ -67,31 +67,23 @@ First  create a empty file and open it for writting ansible script.
           touch ansible.yml
           vi ansible.yml
 
-<h1>Example Playbook:<h1/>
+<h1>Example Playbook:<h1>
 
----<br/>
-- name: Jenkins upgradation<br/>
-  hosts: jenkins<br/>
-  gather_facts: true<br/>
-  become: yes<br/>
-  become_method: sudo<br/>
-  <br/>
-  tasks:<br/>
-  <br/>
-  - name: Add Java Repo<br/>
-      apt_repository: repo='ppa:openjdk-r/ppa'<br/>
-    <br/>
-  - name: Install Java 8<br/>
-      apt: pkg=openjdk-8-jdk<br/>
-      become: yes<br/>
-<br/>
-<h4>You can see the entire script in playbook.yml<h4/><br/> 
+ See jenkins.sh file
+ 
 
 <h1> After Writting the script: </h1>
   
   After writting script run the following command to test the script
  
-         ansibl e-playbook ansible.yml
+         ansible-playbook ansible.yml
+         
+   Playbook starts running.Once copmleted, go to browser and type
+   
+   http://192.168.33.91:8080
+         
+         
+         
 
 <h1> Issues:<h1>
  If the script is not running and throwing the error like Unable to lock the administration directory (/var/lib/dpkg/) is another process using it?
