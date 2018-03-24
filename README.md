@@ -1,4 +1,4 @@
-# Ansible-script-to-installl-Jenkins
+# Ansible-script-to-install-Jenkins
 
 Ansible script to install Jenkins and takes us directly to Jenkins dashboard.
 
@@ -87,7 +87,7 @@ Example Playbook:
          
          
 
-<b>Issues:<b><br/>
+Issues you may get:<br/>
 
  If the script is not running and throwing the error like Unable to lock the administration directory (/var/lib/dpkg/) is another process using it?
 
