@@ -1,4 +1,4 @@
-# Ansible-script-to-installl-Jennkins
+# Ansible-script-to-installl-Jenkins
 
 Ansible script to install Jenkins and takes us directly to Jenkins dashboard.
 
